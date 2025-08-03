@@ -10,15 +10,13 @@
 <a href="https://github.com/deepreinforce-ai/CRINN/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/2507.14111">Paper</a></b>
 </p>
 
-# CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning
+# CRINN: Contrastive Reinforcement Learning for  Approximate Nearest Neighbor Search
 
 
 
 ## Introduction
 
-In this paper, we introduce **CRINN**, a novel reinforcement learning-augmented LLM framework for automated optimization of approximate nearest-neighbor search (ANNS) algorithms. CRINN employs contrastive reinforcement learning to automatically generate progressively faster ANNS implementations while maintaining accuracy constraints, transforming the traditionally manual and expertise-intensive optimization process into an automated search through the space of possible implementations.
-
-CRINN achieves **best-in-class performance** on three out of six widely-used NNS benchmark datasets and matches state-of-the-art results on two others, demonstrating the effectiveness of RL-augmented LLMs for automating complex algorithmic optimizations.
+This repo contains the code for **CRINN**, a reinforcement learning-augmented LLM framework for automated optimization of approximate nearest-neighbor search (ANNS) algorithms. CRINN achieves **best-in-class performance** on three out of six widely-used NNS benchmark datasets (GIST-960-Euclidean, MNIST-784-Euclidean, and GloVe-25-angular) and tied for first place on two (SIFT-128-Euclidean and GloVe-25-angular). The current version uses [GLASS](https://github.com/hhy3/pyglass) as the starting point for RL training.
 
 <div align="center">
   <picture>
@@ -30,45 +28,15 @@ CRINN achieves **best-in-class performance** on three out of six widely-used NNS
 </p>
 </div>
 
-### Key Features
+## 🥳 News 
 
-- **Contrastive RL Framework**: Utilizes comparative analysis of code variants with execution metrics to learn effective optimization strategies
-- **Automated ANNS Optimization**: Transforms manual optimization into automated search through implementation space
-- **Superior Performance**: Achieves best performance on 3/6 benchmark datasets with improvements up to 85.25%
-- **Modular Optimization**: Sequential optimization of three key modules: graph construction, search, and refinement
-- **Broad Applicability**: Framework can be applied to any existing open-source ANNS algorithm as starting point
+**Stay tuned! **
+* **[3 Aug, 2025]** The repository is created and we release the first version. 
 
 
-
-## How CRINN Works
-
-### Core Architecture
-
-CRINN operates through a **contrastive reinforcement learning** approach that:
-
-1. **Analyzes Code Variants**: Performs comparative analysis of previously generated ANNS implementations alongside their execution metrics
-2. **Learns Optimization Patterns**: Develops understanding of which code patterns lead to performance improvements vs. degradation
-3. **Iterative Improvement**: Uses execution time as reward signal to drive LLM toward generating progressively more efficient implementations
-4. **Modular Optimization**: Sequentially optimizes three key ANNS modules: graph construction, search, and refinement
-
-### Optimization Strategy
-
-**Starting Point**: Uses existing open-source ANNS algorithms (demonstrated with GLASS) as baseline **Sequential Modules**:
-
-- **Graph Construction**: Adaptive search scaling, multi-level prefetching, multi-entry point architecture
-- **Search**: Multi-tier entry point selection, batch processing with adaptive prefetching, intelligent early termination
-- **Refinement**: Adaptive memory prefetching, pre-computed edge metadata with pattern recognition
-
-
-
-## Technical Details
-
-### Contrastive RL Training
-
-- **Reward Function**: Area under QPS-recall curve in [0.85, 0.95] recall range
-- **Training Method**: Group Relative Policy Optimization (GRPO)
-- **Exemplar Selection**: Temperature-scaled softmax distribution based on performance scores
-- **Training Data**: Exclusively trained on SIFT-128 dataset, evaluated across all datasets
+### To-do List
+- [ ] Add RL version based on ParlayANN
+- [ ] Incorporate both Euclidean and angular distances as RL training rewards
 
 ### Key Optimization Discoveries
 
@@ -76,8 +44,6 @@ CRINN operates through a **contrastive reinforcement learning** approach that:
 - **Multi-Level Prefetching**: Intelligent prefetching considering neighbor density and search layer
 - **Multi-Entry Point Architecture**: Parallel exploration from diverse entry points
 - **Convergence Detection**: Smart early termination to avoid unnecessary exploration
-
-
 
 ## Usage
 
@@ -114,17 +80,12 @@ During the RL training process, we identified potential reward hacking scenarios
 
 ## Citation
 
-```latex
-@article{li2025crinn,
-  title={CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search},
-  author={Li, Xiaoya and Sun, Xiaofei and Wang, Albert and Shum, Chris and Li, Jiwei},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
-
+## Acknowledgement
+[GLASS](https://github.com/hhy3/pyglass)
+[ParlayANN](https://github.com/cmuparlay/ParlayANN)
+[ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
 
 
 ## Contact
 
-If you have any questions, please reach out to us at **research@deep-reinforce.com**.
+Feel free to raise github issues or directly reach out to us at **research@deep-reinforce.com**.
