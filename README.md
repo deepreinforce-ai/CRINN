@@ -38,7 +38,7 @@ This repo contains the code for **CRINN**, a reinforcement learning-augmented LL
 - [ ] Add RL version based on ParlayANN
 - [ ] Incorporate both Euclidean and angular distances as RL training rewards
 
-### Key Optimization Discoveries
+## Key Optimization Discoveries
 
 - **Adaptive Search Scaling**: Dynamic ef parameter adjustment based on recall requirements
 - **Multi-Level Prefetching**: Intelligent prefetching considering neighbor density and search layer
@@ -66,24 +66,13 @@ python examples/main.py
 
 
 
-## Limitations and Future Work
-
-During the RL training process, we identified potential reward hacking scenarios where the model might exploit timing measurements or cache results. We've implemented safeguards against known cases, but welcome community feedback on additional edge cases.
-
-**Future Directions**:
-
-- Extend framework to other ANNS algorithms beyond GLASS baseline
-- Explore multi-dataset training for improved generalization
-- Integration with hardware-specific optimizations
-
-
 
 ## Citation
 
 ## Acknowledgement
-[GLASS](https://github.com/hhy3/pyglass)
-[ParlayANN](https://github.com/cmuparlay/ParlayANN)
-[ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
+-[GLASS](https://github.com/hhy3/pyglass)
+-[ParlayANN](https://github.com/cmuparlay/ParlayANN)
+-[ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
 
 
 ## Contact
