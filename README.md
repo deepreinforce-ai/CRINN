@@ -67,9 +67,9 @@ python examples/main.py
 ## Citation
 
 ## Acknowledgement
--[GLASS](https://github.com/hhy3/pyglass)
--[ParlayANN](https://github.com/cmuparlay/ParlayANN)
--[ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
+- [GLASS](https://github.com/hhy3/pyglass)
+- [ParlayANN](https://github.com/cmuparlay/ParlayANN)
+- [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
 
 
 ## Contact
