@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: quark
+Version: 1.0.3
+Summary: Graph Library for Approximate Similarity Search
+Author: 
+Requires-Dist: numpy
+Dynamic: description
+Dynamic: requires-dist
+Dynamic: summary
+
+Graph Library for Approximate Similarity Search

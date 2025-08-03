@@ -1,0 +1,10 @@
+setup.py
+./bindings.cc
+ann_dataset/__init__.py
+ann_dataset/dataset.py
+quark.egg-info/PKG-INFO
+quark.egg-info/SOURCES.txt
+quark.egg-info/dependency_links.txt
+quark.egg-info/not-zip-safe
+quark.egg-info/requires.txt
+quark.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+build
+.cache
+python/crinn.egg-info
+examples/__pycache__
+.DS_Store
+datasets/
+python/tmp
+indices/
+python/dist/
+python/glass.egg-info/
+results/
