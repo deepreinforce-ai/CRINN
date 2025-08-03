@@ -7,7 +7,7 @@
 
 <hr>
 <p align="center">
-<a href="https://github.com/deepreinforce-ai/CRINN/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/2507.14111">Paper</a></b>
+<a href="https://github.com/deepreinforce-ai/CRINN/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/2507.14111">Paper</a></b>
 </p>
 
 # CRINN: Contrastive Reinforcement Learning for  Approximate Nearest Neighbor Search
@@ -27,7 +27,7 @@ This repo contains the code for **CRINN**, a reinforcement learning-augmented LL
 
 ## 🥳 News 
 
-**Stay tuned! **
+**Stay tuned!**
 * **[3 Aug, 2025]** The repository is created and we release the first version. 
 
 
