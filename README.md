@@ -23,9 +23,6 @@ This repo contains the code for **CRINN**, a reinforcement learning-augmented LL
       <img src="assets/combined_datasets_plot.jpg" width="90%" alt="Evaluation Results">
   </picture>
 <br>
- <p align="center">
-    <strong>Fig</strong>：QPS versus recall curves for different models across six datasets. CINN achieves achieves best-in-class performance on three out of them (GIST-960-Euclidean, MNIST-784-Euclidean, and GloVe-25-angular) and matching state-of-the-art results on two (SIFT-128 and GloVe-25)
-</p>
 </div>
 
 ## 🥳 News 
