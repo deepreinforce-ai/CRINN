@@ -27,7 +27,7 @@ This repo contains the code for **CRINN**, a reinforcement learning-augmented LL
 
 ## 🥳 News 
 
-**Stay tuned! **
+**Stay tuned!**
 * **[3 Aug, 2025]** The repository is created and we release the first version. 
 
 
