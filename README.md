@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This repo contains the code for **CRINN**, a reinforcement learning-augmented LLM framework for automated optimization of approximate nearest-neighbor search (ANNS) algorithms. CRINN achieves **best-in-class performance** on three out of six widely-used NNS benchmark datasets (GIST-960-Euclidean, MNIST-784-Euclidean, and GloVe-25-angular) and tied for first place on two (SIFT-128-Euclidean and GloVe-25-angular). The current version uses [GLASS](https://github.com/hhy3/pyglass) as the starting point for RL training.
+This repo contains the code for **CRINN**, a reinforcement learning-augmented LLM framework for automated optimization of approximate nearest-neighbor search (ANNS) algorithms. CRINN achieves **best-in-class performance** on three out of six widely-used NNS benchmark datasets (GIST-960-Euclidean, MNIST-784-Euclidean, and GloVe-25-angular) and tied for first place on two (SIFT-128-Euclidean and GloVe-25-angular). The current version uses [GLASS](https://github.com/zilliztech/pyglass) as the starting point for RL training.
 
 <div align="center">
   <picture>
@@ -67,7 +67,7 @@ python examples/main.py
 ## Citation
 
 ## Acknowledgement
-- [GLASS](https://github.com/hhy3/pyglass)
+- [GLASS](https://github.com/zilliztech/pyglass)
 - [ParlayANN](https://github.com/cmuparlay/ParlayANN)
 - [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
 
