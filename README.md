@@ -7,7 +7,7 @@
 
 <hr>
 <p align="center">
-<a href="https://github.com/deepreinforce-ai/CRINN/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg" height="32" style="vertical-align: bottom;"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="">Paper</a></b>
+<a href="https://github.com/deepreinforce-ai/CRINN/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg" height="28" style="vertical-align: bottom;"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="">Paper</a></b>
 </p>
 
 # CRINN: Contrastive Reinforcement Learning for  Approximate Nearest Neighbor Search
