@@ -66,6 +66,15 @@ python examples/main.py
 
 ## Citation
 
+```latex
+@article{deepreinforce2025crinn,
+  title={CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search},
+  author={Li, Xiaoya and Sun, Xiaofei and Wang, Albert and Chris, Shum and Li, Jiwei},
+  journal={arXiv preprint arXiv:2508.02091},
+  year={2025}
+}
+```
+
 ## Acknowledgement
 - [GLASS](https://github.com/zilliztech/pyglass)
 - [ParlayANN](https://github.com/cmuparlay/ParlayANN)
